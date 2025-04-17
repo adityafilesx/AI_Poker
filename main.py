@@ -5,21 +5,15 @@ import time
 from player import PlayerStatus, PlayerAction
 from game import PokerGame, GamePhase
 from baseplayers import InputPlayer
-from StatPlayer import StatPlayer
-from MonteCarloTS import ProbabilityPlayer
-from LLM_Players import LLMPlayer
-
-os.environ["LANGCHAIN_API_KEY"] = "YOUR_API_KEY_HERE"
-google_api_key = 'AIzaSyCdz1R3YUmXysx9Mk3nqi_zmKwxh3C3tLo'
 
 
 def run_game(num_hands):
 
     players = [
-        ProbabilityPlayer("Alice", 1000),
-        StatPlayer("Bob", 1000),
-        ProbabilityPlayer("Charlie", 1000),
-        StatPlayer("David", 1000)
+        InputPlayer("Alice", 1000),
+        InputPlayer("Bob", 1000),
+        InputPlayer("Charlie", 1000),
+        InputPlayer("David", 1000)
     ]
     
     # Create game
