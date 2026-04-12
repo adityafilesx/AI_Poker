@@ -1,0 +1,5 @@
+play_vs_bot.py
+__pycache__/
+*.pyc
+*.pyo
+.env
