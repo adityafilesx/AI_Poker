@@ -1,4 +1,4 @@
-# Poker Engine, AI Poker 2025
+# AI Poker
 
 ## Overview
 This project provides a framework for simulating poker games. It allows you to create custom poker players by extending a base Player class and overriding the action function. 
