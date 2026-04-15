@@ -1,4 +1,4 @@
-from sarthak_bot import SarthakBot
+from aipoker.Fold_or_Die import SarthakBot
 from baseplayers import RaisePlayer, FoldPlayer
 from game import PokerGame, GamePhase
 
